@@ -1,0 +1,38 @@
+.container div{
+    border-radius: 26px;
+    padding: 10px;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+                            'header content card'
+                            
+                                ;
+    grid-gap: 10px;
+    grid-template-columns: 3fr;
+    
+}
+.header{
+    grid-area: header;
+}
+.card{
+    grid-area: card;
+}
+.content{
+    grid-area: content;
+}   
+.header{
+    background: #fc0; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    padding: 10px;
+}
+.content{
+    background: #fc0; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    padding: 10px;
+}
+.card{
+    background: #fc0; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    padding: 10px;
+}
